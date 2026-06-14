@@ -1,6 +1,8 @@
 def reverseString(self, s: str) -> str:
         # code here
-    for i in s:
-        
+    # a=s.split()
+    # "".join(a.reverse())
+    # alternate way
+    return s[::-1]
+
                 
-        return s[::-1]
