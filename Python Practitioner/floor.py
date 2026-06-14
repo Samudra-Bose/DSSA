@@ -1,4 +1,4 @@
-def findFloor(self, arr, x):
+def findFloor( arr, x):
         # code here
         a=-1
         for i in range(len(arr)):
@@ -7,3 +7,5 @@ def findFloor(self, arr, x):
             else:
                 break
         return a
+
+# floor is number that is largest index wise which is less than or equal to that target number
