@@ -1,4 +1,5 @@
-def isPrime(self, n):
+n=int(input("Enter the number :"))
+def isPrime( n):
         # code here
         f=0
         if n < 2:   
@@ -12,3 +13,4 @@ def isPrime(self, n):
             return True
         else:
             return False
+print(isPrime(n))
