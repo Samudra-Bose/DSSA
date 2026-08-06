@@ -1,16 +1,11 @@
-n=int(input("Enter the number :"))
-def isPrime( n):
-        # code here
-        f=0
-        if n < 2:   
-            return False
-        for i in range(2,(n//2)+1):
-            if i != n:
-                if n%i==0:
-                    f=1
-                    break
-        if f==0:
-            return True
-        else:
-            return False
-print(isPrime(n))
+a=29
+flag=0
+for i in range(2,a//2):
+    if(a%i==0):
+        flag=1
+
+if(flag):
+    print("not prime")
+else:
+    print("Prime")
+
